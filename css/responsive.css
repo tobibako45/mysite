@@ -1,0 +1,147 @@
+@media screen and (max-width: 1024px) {
+
+	/*----- layout ----*/
+	.content-wrap {
+		position: relative;
+	}
+
+	.grey-bg,
+	.white-bg {
+		padding: 0;
+	}
+
+	#home {
+		display: none;
+	}
+
+	#home-sp {
+		display: block;
+	}
+
+	.slide-img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.slide-images img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.owl-wrapper-outer {
+		padding: 0;
+	}
+
+	/*---- hero -----*/
+	.hero-content {
+		position: absolute;
+		text-align: center;
+		min-width: 80%;
+		padding: 15px;
+		left: 50%;
+		top: 27%;
+		/* padding: 45px 90px; */
+		background: rgba(255, 255, 255, 0.8);
+		outline: 6px double red;
+		outline-offset: 8px;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	.hero-content h1 {
+		font-size: 24px;
+	}
+
+
+	.menu-wrap {
+		width: 220px;
+	}
+
+	.mouse-icon {
+		bottom: 5px;
+	}
+
+	/*---- portfolio -----*/
+	ul.portfolio-image li {
+		width: 100%;
+		padding-top: 95%;
+	}
+
+	/*---- blog -----*/
+	.grid-item {
+		width: 100% !important;
+		padding: 0;
+	}
+
+	/*---- quote -----*/
+	.wrap-about {
+		/* padding: 0 0 20px 0; */
+		min-height: 400px !important;
+	}
+
+	.wrap-about .w-content {
+		left: 0;
+		right: 0;
+		width: 100%;
+		top: 0;
+		padding: 30px 0;
+		transform: none;
+		font-size: 20px;
+	}
+
+	/*------- testimonial -------*/
+	#testimonial {
+		height: 700px;
+	}
+
+	.page-top {
+		text-align: right;
+		margin-top: 20px;
+		margin-right: 20px;
+		font-size: 40px;
+	}
+
+	.footer-bottom {
+		padding: 40px 10px;
+	}
+
+	#introduction h2,
+	.grey-bg h2 {
+		padding-left: 10px;
+		font-size: 40px;
+	}
+
+	.bg-about {
+		min-height: 350px;
+	}
+
+	.catch {
+		font-size: 22px;
+		margin: 20px 0;
+	}
+
+	.comment {
+		font-size: 14px;
+		line-height: 1.4;
+		text-align: center;
+	}
+
+	.big {
+		font-size: 34px;
+		font-weight: bold;
+	}
+
+	.mid {
+		font-size: 34px;
+		font-weight: bold;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.content-right {
+		margin-top: 20px;
+		padding: 0 20px 0 60px;
+	}
+
+}
